@@ -42,7 +42,12 @@ docker rmi bariallali/bari-docker-eng67:Second_commit_adding_nginx_image
 
 ### Docker client - localhost
 - Host machine --> API calls --> Docker Daemon --> Docker Hub
+
                   Docker pull
+
                   Docker Push
+
                   Docker run
-Docker looks for containers on the local host first and if they are not available makes an API call that connects with the Docker Daemon. If the image does not exist within the docker daemon it goes to the docker hub and returns the image to the local host. 
+
+
+Docker looks for containers on the local host first and if they are not available makes an API call that connects with the Docker Daemon. If the image does not exist within the docker daemon it goes to the docker hub and returns the image to the local host.
