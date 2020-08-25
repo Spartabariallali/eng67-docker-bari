@@ -19,3 +19,9 @@ docker run -d -p 100:3000 aosborne17/getting-started:First_Commit
 
 docker run -d -p 80:80 bariallali/bari-docker-eng67:Second_commit_adding_nginx_image
 ```
+
+### Docker deleting images
+
+```
+docker rmi bariallali/bari-docker-eng67:Second_commit_adding_nginx_image
+```
